@@ -62,6 +62,16 @@ html{
     background-color: var(--background-info-box);
 
 }
+
+
+.main-banner{
+    background-image: url(./peeps\ in\ coffee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
  
 .offer-container{
     width: 400px;
@@ -83,16 +93,31 @@ html{
     
 
 }
+.banner-2
+{
+    height: 600px;
+    border-radius: 10px;
+}
+
+.third-banner{
+    background-image: url(./ansip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
 
 .cvideo{
-    align-content: left,flex-start;
+    position: relative;
+    right:80px;
+
 }
 
 .carousel {
     width: 100%;
     height: 90px;
     background-color: rgb(207, 167, 65);
-
+    
 }
   
      
@@ -123,7 +148,7 @@ height: 75px;
     width: 100px;
     height: 100px;
     padding: 20px;
-    border radius: 50%;
+    border-radius: 50%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -141,7 +166,7 @@ height: 75px;
     height: 100px;
     padding: 20px;
     border: 1px solid black;
-    border radius: 50%;
+    border-radius: 50%;
     text-align: center;
     display: flex;
     align-items: center;
